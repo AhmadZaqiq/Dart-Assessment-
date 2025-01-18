@@ -77,8 +77,4 @@ This Project simulates a Tic-Tac-Toe game where two players can play against eac
 ### 8. **Play Again**:
    - After the game ends, you'll be asked if you'd like to play again. Type `Y` for yes or `N` to exit the game.
 
-By following these steps, you'll be able to run the Tic-Tac-Toe game on your local machine and play with either a friend or the AI.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+By following these steps, you'll be able to run the Tic-Tac-Toe game on your PC and play with either a friend or the AI.
