@@ -41,3 +41,44 @@ This Project simulates a Tic-Tac-Toe game where two players can play against eac
    - If the current player is playing against the computer, the computer will randomly select to place its mark.
    - The game continues until there is a winner or a draw (all cells are filled).
    - After the game ends, the result is displayed, and the user is asked if they want to play again.
+
+## Steps to Run the Game
+
+### 1. **Install Dart SDK**:
+   - First, ensure you have Dart SDK installed on your system. You can download it from the [official Dart website](https://dart.dev/get-dart).
+   - You can follow this [video tutorial](https://www.youtube.com/watch?v=mODiT55xF9I) for installation steps.
+
+### 2. **Download the Project**:
+   - Download or clone the repository from GitHub: `Dart-Assessment-`.
+
+### 3. **Set Up Visual Studio Code**:
+   - It's recommended to use Visual Studio Code (VSCode) for editing the Dart code.
+   - Install the Dart extension for VSCode, which provides support for Dart development.
+
+### 4. **Open the Project in VSCode**:
+   - Open Visual Studio Code and navigate to the folder where you downloaded the project.
+   - You can do this by selecting `File > Open Folder` in VSCode and opening the project's directory.
+
+### 5. **Use the Terminal in VSCode**:
+   - Inside VSCode, open the terminal by going to `View > Terminal`.
+   - Ensure that Dart is correctly installed by typing `dart --version` in the terminal to verify the installation.
+
+### 6. **Run the Game**:
+   - In the VSCode terminal, run the game by typing the following command:
+     ```
+     dart run
+     ```
+   - This command will start the game in the terminal, and you will be able to play either Player vs Player or Player vs AI.
+
+### 7. **Playing the Game**:
+   - Follow the on-screen prompts to choose your game mode, pick your marks (X or O), and make your moves.
+   - The game will automatically check for a winner or a draw after each turn and display the updated board and status.
+
+### 8. **Play Again**:
+   - After the game ends, you'll be asked if you'd like to play again. Type `Y` for yes or `N` to exit the game.
+
+By following these steps, you'll be able to run the Tic-Tac-Toe game on your local machine and play with either a friend or the AI.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
