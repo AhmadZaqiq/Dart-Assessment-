@@ -3,7 +3,7 @@ This Project simulates a Tic-Tac-Toe game where two players can play against eac
 
 ## Project Functionality
 
-### 1. **Enums and Types**:
+### 1. **Enums**:
    - **`Player`**: Defines the current player (either Player 1 or Computer).
    - **`Winner`**: Defines the result of the game (whether Player 1, Computer, Draw, or In Progress).
 
