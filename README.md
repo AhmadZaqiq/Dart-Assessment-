@@ -59,13 +59,17 @@ This Project simulates a Tic-Tac-Toe game where two players can play against eac
    - Open Visual Studio Code and navigate to the folder where you downloaded the project.
    - You can do this by selecting `File > Open Folder` in VSCode and opening the project's directory.
 
-### 5. **Use the Terminal in VSCode**:
-   - Inside VSCode, open the terminal by going to `View > Terminal`.
-   - Ensure that Dart is correctly installed by typing `dart --version` in the terminal to verify the installation.
+### 5. **Navigate to the Project Folder**:
+   - Open the terminal in VSCode by going to `View > Terminal`.
+   - Change the directory to where the project is located by typing the following command:
+     ```bash
+     cd "C:\Users\User1\Dart-Assessment--main\Dart-Assessment--main\tic_tac_toe"
+     ```
+   - Ensure Dart is correctly installed by typing `dart --version` in the terminal to verify the installation.
 
 ### 6. **Run the Game**:
    - In the VSCode terminal, run the game by typing the following command:
-     ```
+     ```bash
      dart run
      ```
    - This command will start the game in the terminal, and you will be able to play either Player vs Player or Player vs AI.
