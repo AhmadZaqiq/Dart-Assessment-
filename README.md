@@ -33,3 +33,11 @@ This Project simulates a Tic-Tac-Toe game where two players can play against eac
    - **`play`**: The main game loop where players take turns making moves, and the game checks for a winner or draw after each move.
    - **`reset`**: Resets the game state for a new round.
    - **`startGame`**: Starts the game and gives the user the option to play again after each round.
+
+### 4. **Game Logic**:
+   - The game begins by showing a menu to choose the game mode: Player vs Player or Player vs Computer.
+   - Then, the players choose their marks (X or O). Player 1 chooses, and Player 2 gets the opposite mark.
+   - In each round, the current player selects between (1 to 9), and the game updates the board. After each move, the game checks if there is a winner or if it's a draw.
+   - If the current player is playing against the computer, the computer will randomly select to place its mark.
+   - The game continues until there is a winner or a draw (all cells are filled).
+   - After the game ends, the result is displayed, and the user is asked if they want to play again.
